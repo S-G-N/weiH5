@@ -1,0 +1,112 @@
+
+body{
+    height: 100%;
+    padding: 0.8rem;
+    background-color: #F8F9F6;
+}
+.img{
+    display: inline-block;
+    width: 100%;
+    height: 37.7rem;
+    background:url(../images/2-22.png);
+    background-size: 100% 100%;
+    
+}
+input{
+    position: fixed;
+    bottom:7.17rem ;
+    left: 50%;
+    margin-left: -8.9rem;
+    display: block;
+    width: 17.8rem;
+    height: 4rem;
+    border-radius: 0.17rem;
+    border: 0.13rem solid #878787;
+    background-color:#aaaaa9 ;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+    
+}
+input[type="tel"]{
+    bottom:11.82rem ;
+    background-color: #F7F8F8;
+    color: #000;
+    
+}
+.effective{
+    background-color:#B58C43 ;
+}
+.popup{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(2,17,32,0.7);
+    
+}
+
+.popup p:nth-child(1){
+    margin-top: 6rem;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+    
+.popup p:nth-child(2){
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #B58C43;
+    text-align: center;
+    width: 88%;
+    line-height: 1.5rem;
+}
+.popup span{
+    position: fixed;
+    bottom: 10rem;
+    left: 50%;
+    margin-left: -10rem;
+    display: inline-block;
+    width: 20rem;
+    height:18rem;
+    background: red;
+    background-size: 100% 100%;
+}
+
+.popup i{
+    font-style: normal;
+    position: fixed;
+    top: 2rem;
+    left: 74%;
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background: red;
+    background-size: 100% 100%;
+}
+.popup i:nth-child(5){
+    display: none;
+    top: 15rem;
+    left: 50%;
+    margin-left: -9rem;
+    display: inline-block;
+    width: 18rem;
+    height: 8.1rem;
+    background: #fff;
+    background-size: 100% 100%;
+}
+.popup i:nth-child(5) div{
+    height: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #B58C43;
+}
+.popup i:nth-child(5) div:nth-child(1){
+    color: #000;
+    border-bottom: 0.1rem solid #D7D7D8;
+}
